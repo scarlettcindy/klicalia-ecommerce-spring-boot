@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Klicalia | <c:choose><c:when test="${modo == 'crear'}">Nuevo producto</c:when><c:otherwise>Editar producto</c:otherwise></c:choose></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/styles.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/admin.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/styles.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/admin.css">
 </head>
 <body>
 

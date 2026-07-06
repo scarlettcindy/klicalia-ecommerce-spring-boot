@@ -16,7 +16,11 @@
             <button type="submit" class="btn btn-outline-secondary btn-sm">Salir</button>
         </form>
     </div>
+     <form method="get" action="${pageContext.request.contextPath}/catalogo" class="row g-2 mb-4">
         <div class="col-auto">
+        <div class="col-auto">
+    <input type="text" name="texto" class="form-control" placeholder="Buscar por nombre..." value="${textoBuscado}">
+</div>
             <select name="idCategoria" class="form-select">
                 <option value="">Todas las categorías</option>
                 <c:forEach var="cat" items="${categorias}">
