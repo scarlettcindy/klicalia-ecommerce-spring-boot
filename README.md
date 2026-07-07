@@ -65,10 +65,8 @@ La aplicación queda disponible en: http://localhost:8080
 
 ## Credenciales de prueba
 
-> Reemplaza esto con una cuenta real de tu base de datos antes de entregar.
-
-- **Administrador:** email `admin@ejemplo.com` / contraseña `________`
-- **Cliente:** email `cliente@ejemplo.com` / contraseña `________`
+- **Administrador:** email `admin@klicalia.com` / contraseña `admin123`
+- **Cliente:** email `clientenuevo@klicalia.com` / contraseña `cliente123`
 
 ## Funcionalidades principales
 
