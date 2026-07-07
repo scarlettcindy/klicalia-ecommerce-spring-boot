@@ -11,6 +11,14 @@
 </head>
 <body>
 
+<nav class="navbar navbar-expand-lg navbar-klicalia">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand logo-brand" href="${pageContext.request.contextPath}/">
+      <img src="${pageContext.request.contextPath}/Logo-completo.png" alt="Klicalia">
+    </a>
+  </div>
+</nav>
+
 <div class="container py-5" style="max-width: 480px;">
 
     <h1 class="h4 mb-4">Crear cuenta</h1>

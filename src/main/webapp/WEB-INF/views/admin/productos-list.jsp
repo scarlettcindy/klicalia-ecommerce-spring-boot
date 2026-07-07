@@ -77,12 +77,13 @@
                     <td class="text-end">
                         <a href="${pageContext.request.contextPath}/admin/products/edit?id=${p.id}"
                            class="btn btn-sm btn-outline-klicalia">Editar</a>
-                        <form method="post" action="${pageContext.request.contextPath}/admin/products/delete"
-                              class="d-inline"
-                              onsubmit="return confirm('¿Eliminar este producto del catálogo?');">
-                            <input type="hidden" name="id" value="${p.id}">
-                            <button type="submit" class="btn btn-sm btn-outline-danger">Eliminar</button>
-                        </form>
+                     <form method="post" action="${pageContext.request.contextPath}/admin/products/delete"
+      class="d-inline"
+      onsubmit="return confirm('¿Eliminar este producto del catálogo?');">
+    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}">
+    <input type="hidden" name="id" value="${p.id}">
+    <button type="submit" class="btn btn-sm btn-outline-danger">Eliminar</button>
+</form>
                     </td>
                 </tr>
             </c:forEach>

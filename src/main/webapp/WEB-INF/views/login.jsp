@@ -6,8 +6,17 @@
     <meta charset="UTF-8">
     <title>Klicalia | Iniciar sesión</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/styles.css">
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-klicalia">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand logo-brand" href="${pageContext.request.contextPath}/">
+      <img src="${pageContext.request.contextPath}/Logo-completo.png" alt="Klicalia">
+    </a>
+  </div>
+</nav>
 <div class="container py-4" style="max-width: 480px;">
     <h1 class="h4 mb-4">Iniciar sesión</h1>
 
